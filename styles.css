@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@200;300;400&family=Rubik:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    background-color: #f5f6fa;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+    padding: 20px;
+    max-width: 800px; 
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f5f6fa;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+input[type="text"], button[type="submit"], button[type="reset"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+input[type="text"] {
+    width: 100%;
+    max-width: 300px;
+    margin-right: 10px;
+    background-color:#dcdde1 ;
+}
+
+button[type="submit"], button[type="reset"] {
+    background-color: #007bff;
+    color: #fff;
+    margin-right: 10px;
+    display: inline-block;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+button[type="submit"]:hover, button[type="reset"]:hover {
+    background-color: #0069d9;
+}
+
+h2 {
+    font-family: 'Noto Sans Thai', sans-serif;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 2rem;
+}
+
+.report{
+    background-color: #e84118;
+    color: rgb(252, 248, 248);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 43%;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  .container a{
+    padding: 14px 25px;
+  }
+
+  .report a:hover{
+    background-color: #c23616;
+    color: rgb(253, 247, 247);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .language{
+    text-align: center;
+    margin-right: 15px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+}
+.report a{
+   margin-left: 145px;
+}
+
+    input[type="text"], button[type="submit"], button[type="reset"] {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    input[type="text"] {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    .report a {
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+
+    .language{
+        margin-right: 0;
+    }
+    @media (max-width: 575.98px) {
+        
+        .report-link {
+          padding: 8px 12px;
+          font-size: 13px;
+          top: 50px;
+          
+        }
+        
+    }
+    
+}
+
+
+
+
+
+
