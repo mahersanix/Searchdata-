@@ -18,11 +18,12 @@ if (!defined('MyConst')) {
     <title>Ftu_1Password</title>
 </head>
 <body>
+    <img src="ftu_logo.png" alt="ftu logo" class="center" >
     <h2>รายการรหัสผ่านระบบต่างๆของมหาวิทยาลัย</h2>
     <br>
     <div class="container">
     <form action="th.php" method="POST">
-        <input type="text" placeholder="กรุณากรอบเลขประจําตัวประชาชน" name="search" class="form-control">
+        <input type="text" placeholder="กรุณากรอบเลขประจําตัวประชาชน" name="search" class="form-control" style="font-family: 'Noto Sans Thai', sans-serif;">
         <button type="submit" style="font-family: 'Noto Sans Thai', sans-serif;">ค้นหา</button>
         <button type="reset" style="font-family: 'Noto Sans Thai', sans-serif;">รีเซ็ต</button>
         

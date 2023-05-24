@@ -20,7 +20,7 @@ if (!defined('MyConst')) {
     <title>Ftu_1Password</title>
 </head>
 <body>
-    <img src="ftu_logo.png" alt="ftu logo" class="center" >
+    <img src="ftu_logo.png" alt="ftu logo" class="center" width="400px" height="auto">
     <h2>List of Passwords in your account</h2>
     <br>
     <div class="container">
