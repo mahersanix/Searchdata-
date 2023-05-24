@@ -49,8 +49,6 @@ if(isset($_POST['search']) && !empty($_POST['search'])){
                 <th>Student ID</th>
                 <th>Email</th>
                 <th>Password</th>
-                <th>WIFI</th>
-                <th>Library</th>
             </tr>
         </thead>
         <tbody>
@@ -60,8 +58,6 @@ if(isset($_POST['search']) && !empty($_POST['search'])){
                 <td><?php echo $row['student_id']; ?></td>
                 <td><?php echo $row['email']; ?></td>
                 <td><?php echo $row['password_email']; ?></td>
-                <td><?php echo $row['password_wifi']; ?></td>
-                <td><?php echo $row['password_library']; ?></td>
             </tr>
             <?php } ?>
         </tbody>
