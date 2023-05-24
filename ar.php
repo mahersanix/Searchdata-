@@ -22,7 +22,7 @@ if (!defined('MyConst')) {
     <br>
     <div class="container">
     <form action="ar.php" method="POST">
-        <input type="text" placeholder="الرجاء أدخل رقم الهويتك" name="search" class="form-control">
+        <input type="text" placeholder="الرجاء إدخال رقم الهوية" name="search" class="form-control">
         <button type="submit">بحث</button>
         <button type="reset">إعادة</button>
         <a href="https://airtable.com/shrtflAQbxmjuLjqx" class="btn btn-danger report-link" style="background-color: #e84118; 
@@ -41,10 +41,10 @@ if(isset($_POST['search']) && !empty($_POST['search'])){
     <table class="table table-bordered">
         <thead>
             <tr>
-                <th>بطاقة التعريف</th>
+                <th>رقم الهوية</th>
                 <th>هوية الطالب</th>
-                <th>يميل</th>
-                <th>كلمة المرور بريد-إلكتروني</th>
+                <th>بريد إلكتروني</th>
+                <th>كلمة المرور بريد إلكتروني</th>
                 <th>واي فاي</th>
                 <th>المكتبة</th>
             </tr>

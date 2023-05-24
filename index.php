@@ -9,6 +9,8 @@ if (!defined('MyConst')) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,6 +20,7 @@ if (!defined('MyConst')) {
     <title>Ftu_1Password</title>
 </head>
 <body>
+  <img src="ftu_logo.png" alt="ftu logo" class="center" width="600" height="280">
     <h2>List of Passwords in your account</h2>
     <br>
     <div class="container">
